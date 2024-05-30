@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استمارة حجز</title>
+</head>
+<body>
+    <h2>استمارة حجز</h2>
+    <form class="jotform-form" id="241354983082460" name="form_241354983082460" action="https://hipaa-submit.jotform.com/submit/241354983082460" method="post" autoComplete="off">
+        <input type="hidden" name="formID" value="241354983082460"/>
+        <div class="form-line" data-type="control_captcha" id="id_203">
+            <label for="input_203">التحقق من أنك إنسان:</label><br>
+            <div data-wrapper-react="true" style="margin:0 auto">
+                <div id="recaptcha_visible" data-component="recaptcha"></div>
+                <input type="hidden" name="recaptcha_visible" value="1"/>
+            </div>
+        </div>
+        <div class="form-line" data-type="control_fullname" id="id_2">
+            <label for="first_2">الاسم الأول:</label><br>
+            <input type="text" id="first_2" name="q2_name745424[first]" required><br><br>
+            <label for="middle_2">الاسم الثاني:</label><br>
+            <input type="text" id="middle_2" name="q2_name745424[middle]"><br><br>
+            <label for="last_2">اسم الجد:</label><br>
+            <input type="text" id="last_2" name="q2_name745424[last]" required><br><br>
+        </div>
+        <div class="form-line jf-required" data-type="control_widget" id="id_127">
+            <label for="input_127">شروط الحجز:</label><br>
+            <iframe frameBorder="0" scrolling="yes" allowtransparency="true" allow="geolocation; microphone; camera; autoplay; encrypted-media; fullscreen" data-type="iframe" class="custom-field-frame" id="customFieldFrame_127" title="اوافق على الشروط" src="" style="border:none;width:580px;height:50px" data-width="580" data-height="50"></iframe>
+            <input type="hidden" id="input_127" class="form-hidden form-widget widget-required" name="q127_input127" value="1">
+            <input type="hidden" id="widget_settings_127" class="form-hidden form-widget-settings" value="%5B%7B%22name%22%3A%22termsText%22%2C%22value%22%3A%22%D8%A3%D9%88%D8%A7%D9%81%D9%82%20%D8%B9%D9%84%D9%89%20%7B%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7%20%D9%88%D8%A7%D9%84%D8%A3%D8%AD%D9%83%D8%A7%D9%85%7D.%22%7D%2C%7B%22name%22%3A%22theme%22%2C%22value%22%3A%22%D8%A7%D9%81%D8%AA%D8%B1%D8%A7%D8%B6%D9%8A%22%7D%2C%7B%22name%22%3A%22acceptedText%22%2C%22value%22%3A%22%D8%AA%D9%85%20%D8%A7%D9%84%D9%82%D8%A8%D9%88%D9%84%22%7D%5D" data-version="2">
+            <div class="form-line jf-required" data-type="control_checkbox" id="id_terms_checkbox">
+                <label class="jfCheckbox-label">
+                    <span class="jfCheckbox-inputWrapper">
+                        <input type="checkbox" class="jfCheckbox-input" id="terms_checkbox" required>
+                        <span class="jfCheckbox-box"></span>
+                    </span>
+                    <span class="jfCheckbox-labelText">لقد قرأت وأوافق على الشروط والأحكام</span>
+                </label>
+            </div>
+        </div>
+        <div class="form-line" data-type="control_phone" id="id_24">
+            <label for="input_24_full">رقم الهاتف الشخصي:</label><br>
+            <input type="tel" id="input_24_full" name="q24_phoneNumber[full]" required><br><br>
+        </div>
+        <div class="form-line" data-type="control_address" id="id_34">
+            <label for="input_34_addr_search">عنوان السكن:</label><br>
+            <input type="text" id="input_34_addr_search" name="q34_input3477[addr_search]" required placeholder="ادخل الموقع"><br><br>
+            <label for="input_34_city">المحافظة:</label><br>
+            <input type="text" id="input_34_city" name="q34_input3477[city]" required><br><br>
+            <label for="input_34_country">البلد:</label><br>
+            <select id="input_34_country" name="q34_input3477[country]" required>
+                <option value="">الرجاء التحديد</option>
+                <option value="Iraq">Iraq</option>
+                <!-- إكمال باقي البلدان -->
+            </select><br><br>
+        </div>
+        <div class="form-line" data-type="control_fileupload" id="id_195">
+            <label for="input_195">صورة بطاقة السكن:</label><br>
+            <input type="file" id="input_195" name="q195_input195" required><br><br>
+        </div>
+        <div class="form-line" data-type="control_fileupload" id="id_81">
+            <label for="input_81">التقط صور
+    <div class="form-line" data-type="control_fileupload" id="id_81">
+        <label for="input_81">التقط صورة شخصية مباشرة:</label><br>
+        <input type="file" id="input_81" name="q81_input818885" required><br><br>
+    </div>
+    <div class="form-line" data-type="control_appointment" id="id_8">
+        <label for="input_8">موعد الحضور إلى الشركة لتقديم الطلب:</label><br>
+        <input type="datetime-local" id="input_8" name="q8_appointment77878[implementation]" required><br><br>
+    </div>
+    <button type="submit" id="submitButton">تأكيد</button>
+</form>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // العثور على عنصر الـ checkbox المرتبط بشروط الحجز
+        var termsCheckbox = document.getElementById("terms_checkbox");
+
+        // العثور على زر التأكيد
+        var submitButton = document.getElementById("submitButton");
+
+        // إضافة مراقب للضغط على زر التأكيد
+        submitButton.addEventListener("click", function(event) {
+            // التحقق مما إذا كانت الشروط موافق عليها
+            if (!termsCheckbox.checked) {
+                event.preventDefault(); // إيقاف تقديم الاستمارة
+                alert("يرجى الموافقة على شروط الحجز قبل التأكيد."); // إظهار رسالة تنبيه
+            }
+        });
+    });
+</script>
+</body>
+</html>
